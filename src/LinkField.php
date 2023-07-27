@@ -48,6 +48,11 @@ class LinkField extends FormField
     protected $record;
 
     /**
+     * @var array $linkConfig
+     */
+    protected $linkConfig;
+
+    /**
      * The column to be used for sorting
      * @var string
      */
